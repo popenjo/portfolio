@@ -1,0 +1,201 @@
+body ,html {width:1920px; overflow-x:auto !important;}
+.section1, .section2, .section3, .section4, .section5, .section6 {background:#FDFBF1;}
+#wrap {}
+#wrap .section {}
+#wrap .section .section1 {
+    width:1920px; height:100%; display:flex;
+    justify-content:space-evenly;
+}
+#wrap .section .section1 .left {
+    width:calc(100% - 50%);
+    background:#4682A9;
+    display:flex; flex-flow:column nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+#wrap .section .section1 .left .l_top {
+    width:100%; height:1px;
+    background:#FDFBF1;
+    margin-top:52px;
+}
+#wrap .section .section1 .left .l_mide {transform:translateX(200px);}
+#wrap .section .section1 > .left > .l_mide > p {
+    font-size: 1.25rem; color:#FDFBF1; transform:translate(-80px, -15px);
+}
+#wrap .section .section1 > .left > .l_mide > .l_title {
+    display:flex; align-items: center;
+}
+#wrap .section .section1 > .left > .l_mide > .l_title > p {
+    font-family: 'MBC1961M';
+    font-size: 6.25rem; color:#FDFBF1;
+}
+#wrap .section .section1 > .left > .l_mide > .l_title > span {
+    display:inline-block; width:25px; height:25px;
+    border-radius:50px; background: #FDFBF1;
+    margin-left:135px;
+}
+#wrap .section .section1 > .left > .l_btn {}
+#wrap .section .section1 > .left > .l_btn .category {
+    width:960px;
+    display:flex; justify-content:space-around;
+    padding:20px; border-top:1px solid #FDFBF1;
+}
+#wrap .section .section1 > .left > .l_btn .category li {
+    font-weight:700; color:#FDFBF1;
+}
+#wrap .section .section1 > .right {
+    width:calc(100% - 50%);
+    display:flex; flex-flow:column nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+#wrap .section .section1 > .right > .r_top {}
+#wrap .section .section1 > .right > .r_top > .category2 {
+    display:flex; justify-content:space-around;
+    width:960px; padding:18px; border-bottom:1px solid #4682A9;
+}
+#wrap .section .section1 > .right > .r_top > .category2 > li {
+    color:#4682A9; font-weight:700;
+}
+#wrap .section .section1 > .right > .r_mide {
+    display:flex; align-items: center;
+    transform:translate(-190px, -19px);
+}
+#wrap .section .section1 > .right > .r_mide > span {
+    display:inline-block; width:25px; height:25px;
+    border-radius:50px; background: #4682A9;
+    margin-right:135px;
+}
+#wrap .section .section1 > .right > .r_mide > p {
+    font-family:'MBC1961M'; font-size:6.25rem; -webkit-text-stroke: 3px #4682A9;
+    color:#FDFBF1;
+}
+#wrap .section .section1 > .right > .r_btn {}
+/* 섹션2 */
+#wrap .section .section2 {}
+#wrap .section .section2 > .top2 {}
+#wrap .section .section2 > .top2 span {}
+#wrap .section .section2 > .top2 .myproflie {}
+#wrap .section .section2 > .left2 {}
+#wrap .section .section2 > .left2 > p {}
+#wrap .section .section2 > .left2 > p > em:first-child {}
+#wrap .section .section2 > .left2 > p > em:last-child {}
+#wrap .section .section2 > .left2 > .left_mide2 {}
+#wrap .section .section2 > .left2 > .left_mide2 > img {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > span {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > .name {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > .name > li {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > .personality {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > .personality > li {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > .hobby {}
+#wrap .section .section2 > .left2 > .left_mide2 > ul > li > .hobby > li {}
+#wrap .section .section2 > .left2 > .left_btn2 {}
+#wrap .section .section2 > .left2 > .left_btn2 > .birth {}
+#wrap .section .section2 > .left2 > .left_btn2 > .birth img {}
+#wrap .section .section2 > .left2 > .left_btn2 > .birth p {}
+#wrap .section .section2 > .left2 > .left_btn2 > .tel {}
+#wrap .section .section2 > .left2 > .left_btn2 > .tel > img {}
+#wrap .section .section2 > .left2 > .left_btn2 > .tel > p {}
+#wrap .section .section2 > .left2 > .left_btn2 > .email {}
+#wrap .section .section2 > .left2 > .left_btn2 > .email > img {}
+#wrap .section .section2 > .left2 > .left_btn2 > .email > p {}
+#wrap .section .section2 > .left2 > .left_btn2 > .sns {}
+#wrap .section .section2 > .left2 > .left_btn2 > .sns > img {}
+#wrap .section .section2 > .left2 > .left_btn2 > .sns > p {}
+#wrap .section .section2 > .line {}
+#wrap .section .section2 > .right2 {}
+#wrap .section .section2 > .right2 > .experience {}
+#wrap .section .section2 > .right2 > .experience > .top2 {}
+#wrap .section .section2 > .right2 > .experience > .top2 > img {}
+#wrap .section .section2 > .right2 > .experience > .top2 > p {}
+#wrap .section .section2 > .right2 > .experience > ul {}
+#wrap .section .section2 > .right2 > .experience > ul > li {}
+#wrap .section .section2 > .right2 > .experience > ul > li > p {}
+#wrap .section .section2 > .right2 > .license {}
+#wrap .section .section2 > .right2 > .license > .mide2 {}
+#wrap .section .section2 > .right2 > .license > .mide2 > img {}
+#wrap .section .section2 > .right2 > .license > .mide2 > p {}
+#wrap .section .section2 > .right2 > .license > ul {}
+#wrap .section .section2 > .right2 > .license > ul > li {}
+#wrap .section .section2 > .right2 > .license > ul > li > p {}
+#wrap .section .section2 > .right2 > .skills {}
+#wrap .section .section2 > .right2 > .skills > .btn2 {}
+#wrap .section .section2 > .right2 > .skills > .btn2 > img {}
+#wrap .section .section2 > .right2 > .skills > .btn2 > p {}
+#wrap .section .section2 > .right2 > .skills > ul {}
+#wrap .section .section2 > .right2 > .skills > ul > li {}
+#wrap .section .section2 > .right2 > .skills > ul > li > p {}
+#wrap .section .section2 > .right2 > .skills > ul > li > span {}
+/* 섹션3 */
+#wrap .section .top_title {}
+#wrap .section .top_title > .nunber {}
+#wrap .section .top_title > .nunber > span {}
+#wrap .section .top_title > .nunber > p {}
+#wrap .section .top_title > .title {}
+#wrap .section .top_title > .title > p {}
+#wrap .section .section3 {}
+#wrap .section .section3 > .btn3 {}
+#wrap .section .section3 > .btn3 .redesign_page {}
+#wrap .section .section3 > .btn3 .redesign_page > .link_btn {}
+#wrap .section .section3 > .btn3 .redesign_page > .link_btn > img {}
+#wrap .section .section3 > .btn3 .redesign_page > .link_btn > .link {}
+#wrap .section .section3 > .btn3 .redesign_page > .link_btn > .link > a {}
+#wrap .section .section3 > .btn3 .redesign_page > .page_btn {}
+#wrap .section .section3 > .btn3 .redesign_page > .page_btn > li {}
+#wrap .section .section3 > .btn3 .redesign_page > .page_btn > li > em {}
+#wrap .section .section3 > .btn3 .redesign_page > .page_btn > li > p {}
+#wrap .section .section3 > .btn3 .redesign_page > .page_btn > li > .program {}
+#wrap .section .section3 > .btn3 .redesign_page > .page_btn > li > .program > img {}
+#wrap .section .section4 {}
+#wrap .section .section4 .sns_design {}
+#wrap .section .section4 .sns_design > li {}
+#wrap .section .section4 .sns_design > li > img {width:250px;}
+#wrap .section .section4 .sns_design > li > .sns_contents {}
+#wrap .section .section4 .sns_design > li > .sns_contents > p {}
+#wrap .section .section4 .sns_design > li > .sns_contents > .color {}
+#wrap .section .section4 .sns_design > li > .sns_contents > .color > span {display:inline-block; width:30px; height:30px; background:#888;}
+#wrap .section .section5 {}
+#wrap .section .section5 > .banner {}
+#wrap .section .section5 > .banner > li {}
+#wrap .section .section5 > .banner > li > img {}
+#wrap .section .section5 > .banner > li > .banner_contents {}
+#wrap .section .section5 > .banner > li > .banner_contents > p {}
+#wrap .section .section5 > .banner > li > .banner_contents > .pgm {}
+#wrap .section .section5 > .banner > li > .banner_contents > .pgm > p {}
+#wrap .section .section5 > .banner > li > .banner_contents > .pgm > span {}
+#wrap .section .section5 > .banner > li > .banner_contents > .rgb {}
+#wrap .section .section5 > .banner > li > .banner_contents > .rgb > p {}
+#wrap .section .section5 > .banner > li > .banner_contents > .rgb > span {}
+/* 섹션 6 */
+#wrap .section .section6 {}
+#wrap .section .section6 > .sec_left {}
+#wrap .section .section6 > .sec_left > .title2 {}
+#wrap .section .section6 > .sec_left > .title2 > p:first-child {}
+#wrap .section .section6 > .sec_left > .title2 > p:last-child {}
+#wrap .section .section6 > .sec_left > .contents {}
+#wrap .section .section6 > .sec_left > .contents > p {}
+#wrap .section .section6 > .sec_left > .contents > p > em {}
+#wrap .section .section6 > .sec_left > a {}
+#wrap .section .section6 > .sec_right {}
+#wrap .section .section6 > .sec_right > img {}
+/* 8 */
+#wrap .section .section8 {}
+#wrap .section .section8 > .sec_left2 {}
+#wrap .section .section8 > .sec_left2 > .title {}
+#wrap .section .section8 > .sec_left2 > .title > p:first-child {}
+#wrap .section .section8 > .sec_left2 > .title > p:last-child {}
+#wrap .section .section8 > .sec_left2 > p {}
+#wrap .section .section8 > .sec_left2 > p > em {}
+#wrap .section .section8 > .sec_left2 > .program2 {}
+#wrap .section .section8 > .sec_left2 > .program2 > p {}
+#wrap .section .section8 > .sec_left2 > .rgb_color2 {}
+#wrap .section .section8 > .sec_left2 > .rgb_color2 > span {}
+#wrap .section .section8 > .sec_left2 > a {}
+#wrap .section .section8 > .sec_right {}
+#wrap .section .section8 > .sec_right > img {}
+/* 사이드 버튼 */
+#wrap .scroll_btn {}
+#wrap .scroll_btn li {}
+#wrap .scroll_btn li a {}
