@@ -1,3 +1,4 @@
+.fp-watermark {display:none !important;}
 body ,html {width:1920px; overflow-x:auto !important;}
 .section1, .section2, .section3, .section4, .section5, .section6 {background:#FDFBF1;}
 #wrap {}
@@ -12,6 +13,8 @@ body ,html {width:1920px; overflow-x:auto !important;}
     display:flex; flex-flow:column nowrap;
     justify-content:space-between;
     align-items: center;
+    transform:translateX(-1000px);
+    opacity:0;
 }
 #wrap .section .section1 .left .l_top {
     width:100%; height:1px;
@@ -48,6 +51,8 @@ body ,html {width:1920px; overflow-x:auto !important;}
     display:flex; flex-flow:column nowrap;
     justify-content:space-between;
     align-items: center;
+    transform:translateX(1000px);
+    opacity:0;
 }
 #wrap .section .section1 > .right > .r_top {}
 #wrap .section .section1 > .right > .r_top > .category2 {
@@ -213,13 +218,32 @@ body ,html {width:1920px; overflow-x:auto !important;}
 #wrap .section:nth-child(3){background: #FDFBF1;}
 #wrap .section .top_title {
     display:flex; align-items: center;
+    margin-left:230px; transform:translateY(-50px);
 }
-#wrap .section .top_title > .nunber {display:flex; align-items: center;}
+#wrap .section .top_title > .nunber {
+    display:flex; align-items: center;
+}
 #wrap .section .top_title > .nunber > span {
     display:inline-block; width:1px; height:25px;
     background:rgba(70, 130, 169, 0.60);
 }
 #wrap .section .top_title > .nunber > p {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:3.6rem;
+    color:rgba(70, 130, 169, 0.60);
+    margin:0 10px;
+}
+#wrap .section .top_title2 > .nunber {
+    display:flex; align-items: center;
+    margin-bottom:50px;
+}
+#wrap .section .top_title2 > .nunber > span {
+    display:inline-block; width:1px; height:25px;
+    background:rgba(70, 130, 169, 0.60);
+}
+#wrap .section .top_title2 > .nunber > p {
     font-family: "adobe-garamond-pro", serif;
     font-weight: 700;
     font-style: normal;
@@ -510,7 +534,3 @@ body ,html {width:1920px; overflow-x:auto !important;}
 #wrap .section .section8 > .sec_left2 > .rgb_color3 > span:nth-child(6) {background:#fff;}
 #wrap .section .section8 > .sec_right {}
 #wrap .section .section8 > .sec_right > img {}
-/* 사이드 버튼 */
-#wrap .scroll_btn {}
-#wrap .scroll_btn li {}
-#wrap .scroll_btn li a {}
