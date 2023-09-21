@@ -1,5 +1,5 @@
 .fp-watermark {display:none !important;}
-body ,html {width:1920px; overflow-x:auto !important;}
+body ,html {width:1920px; overflow-x:auto !important; font-family: 'Noto Sans KR', sans-serif;}
 .section1, .section2, .section3, .section4, .section5, .section6 {background:#FDFBF1;}
 #wrap {}
 #wrap .section {}
@@ -289,10 +289,10 @@ body ,html {width:1920px; overflow-x:auto !important;}
     transform:translateX(50px); transition:all 0.5s;
 }
 #wrap .section .section3 > .btn3 .redesign_page > .link_btn > .link > a:last-child {
-    transform:translateX(35px);
+    transform:translateX(20px);
 }
 #wrap .section .section3 > .btn3 .redesign_page > .link_btn > .link > a:hover {
-    transform:translateX(180px); background: #FF927A;
+    transform:translateX(170px); background: #FF927A;
 }
 #wrap .section .section3 > .btn3 .redesign_page > .page_btn {
     width:350px; margin-top:20px;
@@ -316,8 +316,11 @@ body ,html {width:1920px; overflow-x:auto !important;}
     justify-content:space-between;
 }
 #wrap .section .section4 .sns_design > li {display:flex; margin-bottom:30px;}
-#wrap .section .section4 .sns_design > li > img {width:250px; transition:all 0.5s;}
-#wrap .section .section4 .sns_design > li > img:hover {transform:translateY(-10px); box-shadow:15px 15px 5px #888;}
+#wrap .section .section4 .sns_design > li > img {width:250px; transition:all 0.5s; filter:grayscale(1);}
+#wrap .section .section4 .sns_design > li > img:hover {
+    transform:translateY(-10px); box-shadow:15px 15px 5px #888;
+    filter:grayscale(0);
+}
 #wrap .section .section4 .sns_design > li > .sns_contents {
     color:#888;
     display:flex; flex-flow:column nowrap;
