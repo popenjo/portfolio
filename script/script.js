@@ -52,3 +52,12 @@ $('.sns_design > li:nth-child(6) > img').on('click',function(){
 $('#closer6').on('click',function(){
     $('.sns6_page').hide()
 })
+
+// 작업중
+$('.work').hide()
+$('.design_link a:first-child').on('mouseover',function(){
+    $('.work').show()
+})
+$('.design_link a:first-child').on('mouseout',function(){
+    $('.work').hide()
+})
