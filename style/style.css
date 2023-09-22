@@ -178,6 +178,16 @@ body ,html {width:1920px; overflow-x:auto !important; font-family: 'Noto Sans KR
     width:1px; height:500px; background: #4682A9;
 }
 #wrap .section .section2 > .right2 {}
+#wrap .section .section2 > .right2 > .education {margin-bottom:48px;}
+#wrap .section .section2 > .right2 > .education > .top2 {display:flex; align-items: center; margin-bottom:16px;}
+#wrap .section .section2 > .right2 > .education > .top2 > img {margin-right:9px;}
+#wrap .section .section2 > .right2 > .education > .top2 > p {font-size:1.1rem; color:#888; font-weight:500;}
+#wrap .section .section2 > .right2 > .education > ul {}
+#wrap .section .section2 > .right2 > .education > ul > li {display:flex; margin-bottom:15px;}
+#wrap .section .section2 > .right2 > .education > ul > li:last-child {margin-bottom:0;}
+#wrap .section .section2 > .right2 > .education > ul > li > p:first-child {font-weight:500;}
+#wrap .section .section2 > .right2 > .education > ul > li > p {margin-right:15px; color:#4682A9;}
+
 #wrap .section .section2 > .right2 > .experience {margin-bottom:48px;}
 #wrap .section .section2 > .right2 > .experience > .top2 {display:flex; align-items: center; margin-bottom:16px;}
 #wrap .section .section2 > .right2 > .experience > .top2 > img {margin-right:9px;}
@@ -187,6 +197,7 @@ body ,html {width:1920px; overflow-x:auto !important; font-family: 'Noto Sans KR
 #wrap .section .section2 > .right2 > .experience > ul > li:last-child {margin-bottom:0;}
 #wrap .section .section2 > .right2 > .experience > ul > li > p:first-child {font-weight:500;}
 #wrap .section .section2 > .right2 > .experience > ul > li > p {margin-right:15px; color:#4682A9;}
+/* -------------- */
 #wrap .section .section2 > .right2 > .license {margin-bottom:52px;}
 #wrap .section .section2 > .right2 > .license > .mide2 {display:flex; align-items: center; margin-bottom:16px;}
 #wrap .section .section2 > .right2 > .license > .mide2 > img {margin-right:9px;}
@@ -475,7 +486,7 @@ body ,html {width:1920px; overflow-x:auto !important; font-family: 'Noto Sans KR
 /* 8 */
 #wrap .section:nth-child(8) {background:#FDFBF1;}
 #wrap .section:nth-child(9) {background:#FDFBF1;}
-#wrap .section .section8 {display:flex; justify-content:space-around; align-items: center;}
+#wrap .section .section8 {background:#FDFBF1; display:flex; justify-content:space-around; align-items: center;}
 #wrap .section .section8 > .sec_left2 {}
 #wrap .section .section8 > .sec_left2 > .title {margin-bottom:73px;}
 #wrap .section .section8 > .sec_left2 > .title > p:first-child {
