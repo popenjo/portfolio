@@ -530,11 +530,6 @@ body ,html {width:1920px; overflow-x:auto !important; font-family: 'Noto Sans KR
 #wrap .section .section8 > .sec_left2 > .rgb_color2 > span:nth-child(4) {background: #A2C579;}
 #wrap .section .section8 > .sec_left2 > .rgb_color2 > span:nth-child(5) {background: #FFFFDD;}
 #wrap .section .section8 > .sec_left2 > .design_link {margin-top:50px; display:flex;}
-#wrap .section .section8 > .sec_left2 > .work {
-    display:inline-block; width:60px; text-align: center;
-    background:#0B636F; transform:translateY(20px);
-    color:#FFFFDD; border-radius:50px; padding:5px;
-}
 #wrap .section .section8 > .sec_left2 > .design_link > a {
     display:block; background:#fff; padding:10px 15px; border-radius:50px;
     margin-right:10px; color:#4682A9; font-size:1.2rem; font-weight:700;
